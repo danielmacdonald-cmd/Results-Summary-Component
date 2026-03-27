@@ -6,14 +6,26 @@ body{
 .result{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     background-color:  hsl(252, 100%, 67%);
     border-radius: 20px;
     padding: 20px;
+    width: 270px;
+    height: 350px;
+    color: white;
 }
 
 .summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
+    width: 270px;
+
+
 }
 
 .summary-item-reaction{
@@ -21,15 +33,40 @@ body{
 }
 
 .score-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:  hsla(256, 72%, 46%, 1);
     margin-left: 200px;
     margin-right: 200px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 .container{
     display: flex;
     margin-top: 200px;
-    justify-content: space-around;
-    
-    
+    justify-content: center;
 }
+
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.5);
+}
+
+
+.memory{
+    background-color:  hsla(39, 100%, 56%, 0.5);
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.5);
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.5);
+}
+
+
+
